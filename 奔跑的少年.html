@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奔跑的少年</title>
+    <style>
+        div{
+            background-image: url("./img/奔跑的少年.png");
+            width:256px;
+            height:252px;
+            background-position: 0px 0px;
+            animation-name:run;
+            animation-duration: 0.3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: steps(6);
+        }
+
+        /*设置关键帧*/
+        @keyframes run {
+            0%{
+                background-position: 0,0;
+            }
+            
+            100%{
+                background-position: -1536px 0px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>
